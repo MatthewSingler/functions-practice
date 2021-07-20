@@ -1,14 +1,17 @@
-/*const calculateAgeInDogYears = (ageOfPerson) => {
+/*//AGE IN DOG YEARS//
+const calculateAgeInDogYears = (ageOfPerson) => {
     const ageInDogYears = ageOfPerson / 7
     
     return ageInDogYears
 }
 
 const dogAge = calculateAgeInDogYears(45)
-console.log(dogAge)*/
+console.log(dogAge)
 
 
-/*const createAFunction = (dogBreed) => {
+
+//BEST IN SHOW//
+const createAFunction = (dogBreed) => {
    
     if (dogBreed === "schnauzer") {
        return `My favorite is ${dogBreed}`
@@ -38,19 +41,23 @@ const someDog = (dogBreed) => {
 
 someDog("German Shepherd")
 const theOtherAnimal = someDog("")
-/*console.log(theOtherAnimal)*/
-/*const theCat = someDog("Meow")
-console.log(theCat)*/
+console.log(theOtherAnimal)
+const theCat = someDog("Meow")
+console.log(theCat)
 
 
-//Additions Exercise//
 
-/*const add = (firstNumber, secondNumber, thirdNumber) => {
+//ADDITIONS EXERCISE//
+const add = (firstNumber, secondNumber, thirdNumber) => {
     return (firstNumber + secondNumber + thirdNumber)
 }
 myAddition = add(3, 2, 3)
-console.log(myAddition)*/
+console.log(myAddition)
 
+
+
+
+//SELF DRIVING CARS
 const go = (moveDirection, travelSpeed) => {
     if (travelSpeed > 75) {
         return (`The car is moving ${moveDirection} at ${travelSpeed} SLOW DOWN`)
@@ -61,3 +68,24 @@ const go = (moveDirection, travelSpeed) => {
 
 const howAmITraveling = go("Forwards", 80)
 console.log(howAmITraveling)
+
+
+//EVENS OR ODDS//
+const evenOrOdd = (number) => {
+    if (number % 2 === 0) {
+        return ("Even")
+    } else {
+        return ("Odd")
+    }
+}
+
+const theAnswer = evenOrOdd(5)
+console.log(theAnswer)
+
+const numbersArray = [1, 2, 6, 20, 13, 39]
+for (numbers of numbersArray) {
+    const theAnswers = evenOrOdd(numbers)
+    console.log(theAnswers)
+} */
+
+//
