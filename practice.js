@@ -7,7 +7,7 @@
 const dogAge = calculateAgeInDogYears(45)
 console.log(dogAge)*/
 
-//write a function that will take string as arguement
+
 /*const createAFunction = (dogBreed) => {
    
     if (dogBreed === "schnauzer") {
@@ -24,7 +24,7 @@ const someOtherValue = createAFunction("meow")
 const thirdDog = createAFunction("Sheepdog")
 console.log(returnValue)
 console.log(someOtherValue)
-console.log(thirdDog)*/
+console.log(thirdDog)
 
 
 const someDog = (dogBreed) => {
@@ -39,5 +39,25 @@ const someDog = (dogBreed) => {
 someDog("German Shepherd")
 const theOtherAnimal = someDog("")
 /*console.log(theOtherAnimal)*/
-const theCat = someDog("Meow")
-console.log(theCat)
+/*const theCat = someDog("Meow")
+console.log(theCat)*/
+
+
+//Additions Exercise//
+
+/*const add = (firstNumber, secondNumber, thirdNumber) => {
+    return (firstNumber + secondNumber + thirdNumber)
+}
+myAddition = add(3, 2, 3)
+console.log(myAddition)*/
+
+const go = (moveDirection, travelSpeed) => {
+    if (travelSpeed > 75) {
+        return (`The car is moving ${moveDirection} at ${travelSpeed} SLOW DOWN`)
+    } else {
+        return (`The car is moving ${moveDirection} at ${travelSpeed}`)
+    }
+}
+
+const howAmITraveling = go("Forwards", 80)
+console.log(howAmITraveling)
