@@ -88,4 +88,42 @@ for (numbers of numbersArray) {
     console.log(theAnswers)
 } */
 
-//
+//DOUBLE FUNCTIONS//
+
+const words = [
+    "The", "killing", "complex", "houses",
+    "married", "kittens", "and", "single",
+    "soldiers", "and", "their", "kleptomaniacal",
+    "families"
+]
+
+/*
+    Function to filter out `k` words
+    (Google 'javascript startswith' to get started)
+ */
+const filterKWordsOut = () => {
+    if (words.startsWith("k")) {
+        return ()
+    }
+}
+const myKs = filterKWordsOut(true)
+console.log(myKs)
+
+/*
+    Function to build a single string from the array
+    (Google 'javascript combine all items in array' to get started)
+ */
+
+
+/*
+    Invoke the filtering function and store its return value
+ */
+
+
+/*
+    Invoke the string building function, and pass the
+    return value of the previous function as an argument
+*/
+
+
+console.log()
